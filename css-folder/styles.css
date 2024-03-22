@@ -1,110 +1,62 @@
 
-/* Google Fonts - Roboto*/
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-}
 :root {
+    --primary-color: #404BBF;
     --background-color: #FFFFFF;
-}
-body {
-    background-color: var(--background-color);
-}
+  }
 
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+/* Define CSS variables */
+:root {
+    --primary-color: #404BBF;
+    --background-color: #FFFFFF;
   }
   
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
+  /* Adjustments for header */
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  
+  /* Adjustments for button */
+  button {
+    font-family: "Roboto", sans-serif; /* Matching Google Fonts - Roboto */
     font-weight: 500;
-    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
   }
   
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  /* Hover and focus styles for button */
+  button:hover,
+  button:focus {
+    background-color: #404BBF;
+    color: #fff; /* Change font color on hover/focus */
   }
   
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+  /* Additional styles for first section */
+  main > section:first-of-type {
+    background-color: #2E2F42; /* Use CSS variable for background color */
   }
   
-/* Google Fonts - Raleway*/
-/* .raleway-heading: Example of a descriptive class name */
-.raleway-heading {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
+  /* Additional styles for button in first section */
+  main > section:first-of-type button {
+    background-color: #2E2F42; /* Use CSS variable for background color */
+    color: #fff; /* White text color */
+  }
 
-
-
-/* Logo Styles */
-.LOGO span.Web {
-    color: #4D5AE5; /* Color for "WEB" */
-}
-.LOGO span.STUDIO {
-    color: navy; /* Color for "STUDIO" */
-}
-/* Button Style */
-button {
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-/* Footer Styles */
-footer {
+  /* Adjust the color of "Effective Solutions" text in the hero section */
+main > section:first-of-type h1 {
+    color: #fff; /* White text color */
+  }
+  
+  
+  footer {
     background-color: #2E2F42; /* Navy Blue background */
     color: #FFFFFF; /* White text color */
-}
-
-/* Hero Section Styles */
-main > section:first-of-type {
-    background-color: #2E2F42; /* Navy Blue background */
-    color: #FFFFFF; /* White text color */
-}
-/* Order Service Button Styles */
-main > section:first-of-type button {
-    background-color: #4D5AE5; /* Iris background */
-    color: #FFFFFF; /* White text color */
-}
-/* Optional: Hover effect for the button */
-main > section:first-of-type button:hover {
-    background-color: #3753cc; /* Darker shade of Iris for hover */
-}
-
-
-
-
-
-
-/* portfolio.html - FOOTER */
-.footer-logo {
-}
-
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-color); 
-    text-decoration: none; 
-}
-
-.logo-text {
-    color: #f4f4fd;
-}
+  }
+  
