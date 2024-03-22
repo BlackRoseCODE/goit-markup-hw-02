@@ -1,0 +1,33 @@
+/* Logo Styles */
+.LOGO span.Web {
+    color: Iris; /* Color for "WEB" */
+}
+
+.LOGO span.STUDIO {
+    color: navy; /* Color for "STUDIO" */
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #2E2F42; /* Navy Blue background */
+    color: #FFFFFF; /* White text color */
+}
+
+/* Hero Section Styles */
+main > section:first-of-type {
+    background-color: #2E2F42; /* Navy Blue background */
+    color: #FFFFFF; /* White text color */
+}
+
+/* Order Service Button Styles */
+main > section:first-of-type button {
+    background-color: #4D5AE5; /* Iris background */
+    color: #FFFFFF; /* White text color */
+}
+
+/* Optional: Hover effect for the button */
+main > section:first-of-type button:hover {
+    background-color: #3753cc; /* Darker shade of Iris for hover */
+}
