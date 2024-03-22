@@ -44,7 +44,6 @@ body {
 /* .raleway-heading: Example of a descriptive class name */
 .raleway-heading {
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: 0;
     font-weight: 800;
     font-style: normal;
 }
@@ -54,7 +53,7 @@ body {
 
 /* Logo Styles */
 .LOGO span.Web {
-    color: 4D5AE5; /* Color for "WEB" */
+    color: #4D5AE5; /* Color for "WEB" */
 }
 
 .LOGO span.STUDIO {
