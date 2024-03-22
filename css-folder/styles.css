@@ -1,17 +1,15 @@
+
 /* Google Fonts - Roboto*/
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
-
 :root {
     --background-color: #FFFFFF;
 }
-
 body {
     background-color: var(--background-color);
 }
-
 
 
 .roboto-regular {
@@ -38,9 +36,7 @@ body {
     font-style: normal;
   }
   
-
 /* Google Fonts - Raleway*/
-
 /* .raleway-heading: Example of a descriptive class name */
 .raleway-heading {
     font-family: "Raleway", sans-serif;
@@ -50,21 +46,17 @@ body {
 
 
 
-
 /* Logo Styles */
 .LOGO span.Web {
     color: #4D5AE5; /* Color for "WEB" */
 }
-
 .LOGO span.STUDIO {
     color: navy; /* Color for "STUDIO" */
 }
-
 /* Button Style */
 button {
     cursor: pointer;
 }
-
 
 
 
@@ -83,13 +75,11 @@ main > section:first-of-type {
     background-color: #2E2F42; /* Navy Blue background */
     color: #FFFFFF; /* White text color */
 }
-
 /* Order Service Button Styles */
 main > section:first-of-type button {
     background-color: #4D5AE5; /* Iris background */
     color: #FFFFFF; /* White text color */
 }
-
 /* Optional: Hover effect for the button */
 main > section:first-of-type button:hover {
     background-color: #3753cc; /* Darker shade of Iris for hover */
@@ -97,3 +87,24 @@ main > section:first-of-type button:hover {
 
 
 
+
+
+
+/* portfolio.html - FOOTER */
+.footer-logo {
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color); 
+    text-decoration: none; 
+}
+
+.logo-text {
+    color: #f4f4fd;
+}
