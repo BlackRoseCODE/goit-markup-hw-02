@@ -1,3 +1,42 @@
+/* Google Fonts - Roboto*/
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+/* Google Fonts - Raleway*/
+
+/* .raleway-heading: Example of a descriptive class name */
+.raleway-heading {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
 /* Logo Styles */
 .LOGO span.Web {
     color: Iris; /* Color for "WEB" */
@@ -6,6 +45,16 @@
 .LOGO span.STUDIO {
     color: navy; /* Color for "STUDIO" */
 }
+
+/* Button Style */
+button {
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
@@ -31,3 +80,6 @@ main > section:first-of-type button {
 main > section:first-of-type button:hover {
     background-color: #3753cc; /* Darker shade of Iris for hover */
 }
+
+
+
